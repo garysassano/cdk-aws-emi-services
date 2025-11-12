@@ -1,0 +1,8 @@
+{
+  "app": "node --import tsx src/main.ts",
+  "output": "cdk.out",
+  "watch": {
+    "include": ["src/**/*.ts"],
+    "exclude": ["README.md", "cdk*.json", "node_modules", "coverage", "dist"]
+  }
+}
